@@ -1,0 +1,26 @@
+{
+  "name": "nfon_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habbst/NFON_Task.git"
+  },
+  "author": "Hassan Ali Bukhari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habbst/NFON_Task/issues"
+  },
+  "homepage": "https://github.com/habbst/NFON_Task#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.32.0",
+    "cypress": "^10.3.1",
+    "eslint": "^8.21.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "typescript": "^4.7.4"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "cypress"
+    ],
+    "rules": {
+        "cypress/no-unnecessary-waiting": "warn"
+    },
+    "extend": [
+        "plugin:cypress/recommended"
+    ],
+    "env": {
+        "cypress/globals": true
+    }
+}

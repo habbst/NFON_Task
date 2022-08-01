@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es5",
+        "lib": ["esnext","es5", "dom"],
+        "types": ["cypress", "node"],
+        "strictPropertyInitialization": false
+    },
+    "include": ["**/*.ts"]
+  }
