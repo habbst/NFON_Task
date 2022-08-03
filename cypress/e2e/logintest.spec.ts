@@ -31,10 +31,9 @@ describe("loginPage_testsuite", () => {
         loginPage.PerformLogin(validUser.username, validUser.password)
         userPage.ChangePasswordButton.should('be.visible')
     })
-
+    
     it("Perform login with invalid credentials", () => {
         loginPage.PerformLogin(invalidUser.username, invalidUser.password)
         textHelper.PageContainsText("Username and/or password are incorrect")
-
     })
 })
