@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cypress:run-ci": "cypress run --record --key 58fbfe36-d7af-4b26-8d10-3f4ec410d448",
     "cypress:dashboard": "cypress run --record --key 58fbfe36-d7af-4b26-8d10-3f4ec410d448"
   },
   "repository": {
